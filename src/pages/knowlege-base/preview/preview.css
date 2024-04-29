@@ -1,0 +1,15 @@
+.image-container {  
+    position: relative; /* 确保提示文字定位正确 */  
+    display: inline-block; /* 允许图片容器根据内容大小调整 */  
+  }  
+    
+  .tooltip {  
+    background-color: #333;  
+    color: #fff;  
+    padding: 5px 10px;  
+    border-radius: 5px;  
+    font-size: 12px;  
+    white-space: nowrap;  
+    z-index: 1000; /* 确保提示文字显示在其他内容之上 */  
+    pointer-events: none; /* 避免提示文字阻挡鼠标事件 */  
+  }

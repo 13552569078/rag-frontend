@@ -1,0 +1,113 @@
+/* 搜索框无圆角 */
+.cec-inputSearch,
+.ant-input-search .ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+    border-radius: 0;
+}
+
+.cec-inputSearch,
+.ant-input-search>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary) {
+    border-radius: 0;
+    border-left-width: 0px;
+}
+
+.cec-inputSearch,
+.ant-input-search .ant-input-group {
+    border-color: rgba(0, 0, 0, 0.88);
+}
+
+.cec-inputSearch .ant-input-group-addon {
+    display: none;
+}
+
+/* 首页搜索框 */
+.cec-inputSearch-home .ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+    border-radius: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cec-inputSearch-home .ant-input-group {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.cec-inputSearch-home>.ant-input-group>.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary) {
+    border-radius: 0;
+    border-left-width: 0px;
+}
+
+.cec-inputSearch-home .ant-input-group-addon {
+    display: none;
+}
+
+.cec-inputSearch-home .ant-input::placeholder {
+    color: #CACFD6;
+}
+
+.cec-inputSearch-home .ant-input {
+    color: #ffffff !important;
+}
+
+.cec-inputSearch-home .anticon-close-circle {
+    color: #ffffff !important;
+}
+
+.cec-inputSearch-home .ant-input-search-button {
+    border-radius: 0 !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    font-size: 18px !important;
+}
+
+.cec-inputSearch-home .ant-input-outlined {
+    border-radius: 0 !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid transparent !important;
+    border-right: 0px solid transparent !important;
+}
+
+/* input无圆角 */
+.ant-input,
+.ant-input-outlined {
+    border-radius: 0;
+}
+
+/* 最后一个form元素无margin */
+.ant-form-item:last-of-type {
+    margin-bottom: 0;
+}
+
+/* 解决小红点的问题 */
+.ant-form-item .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    position: absolute;
+    left: -10px;
+}
+
+.ant-form-item .ant-form-item-label {
+    overflow: visible;
+    position: relative;
+}
+
+/* .ant-form-item 下边距 */
+/* .ant-form-item {
+    margin-bottom: 14px;
+} */
+.ant-form-vertical .ant-form-item-label,
+.ant-col-24.ant-form-item-label,
+.ant-col-xl-24.ant-form-item-label {
+    padding: 0 0 0px;
+}
+
+/* select无圆角 */
+.ant-select .ant-select-selector {
+    border-radius: 0;
+}
+
+/* tags */
+.ant-select-outlined.ant-select-multiple .ant-select-selection-item {
+    background-color: #EBF9FF;
+}
+
+// no-required-form必填无红点
+
+.no-required-form .ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+    content:''
+}

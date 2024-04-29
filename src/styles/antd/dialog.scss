@@ -1,0 +1,26 @@
+.ant-modal-root .ant-modal-content {
+    border-radius: 0;
+}
+
+/* 弹框无背景色 */
+.ant-modal-root .ant-modal-mask {
+    background-color: transparent;
+}
+
+/* pover 鼠标滑过 */
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item:hover,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title:hover,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-active,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-item-active,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active,
+.ant-dropdown-menu-submenu .ant-dropdown-menu .ant-dropdown-menu-submenu-title-active {
+    background: #F9FAFE;
+    color: #2C54D1;
+}
+.no-padding-pover .ant-dropdown-menu{
+    padding: 6px 0;
+    border-radius: 4px;
+}

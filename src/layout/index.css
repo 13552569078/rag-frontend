@@ -1,0 +1,10 @@
+.active-menu {
+    font-weight: bold;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom: 4px solid #2C54D1;
+}
+
+#body {
+    background-color: #fff;
+}

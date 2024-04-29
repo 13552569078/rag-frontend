@@ -1,0 +1,36 @@
+module.exports = {
+  root: true,
+  env: { browser: true, es2020: true },
+  extends: [
+    'eslint:recommended',
+    '@zhangwj0520/eslint-config-ts',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:react-hooks/recommended',
+  ],
+  ignorePatterns: ['dist', '.eslintrc.cjs'],
+  parser: '@typescript-eslint/parser',
+  plugins: ['react-refresh'],
+  rules: {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    'react-refresh/only-export-components': [
+      'warn',
+      { allowConstantExport: true },
+      
+    ],
+    "quotes": "off",
+    '@typescript-eslint/no-shadow': 'off',
+    "@typescript-eslint/no-use-before-define":'off',
+    "no-promise-executor-return": "off",
+    "class-methods-use-this": "off",
+    "no-unused-expressions": "off",
+    "no-underscore-dangle":["error",{"allowAfterThis": true }],
+    "@typescript-eslint/no-explicit-any": "off",
+    'react-hooks/exhaustive-deps': 'off',  
+    'no-useless-constructor': 'off',
+    'consistent-return': 'off',
+    'max-params': 'off',
+    'no-console': 'off',
+    'no-invalid-this': 'off',
+    'no-underscore-dangle': 'off',
+  },
+}
